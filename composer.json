@@ -1,0 +1,19 @@
+{
+    "name": "dsw/qrcreator",
+    "description": "Aplicación generador de códigos QR",
+    "type": "proyect",
+    "autoload": {
+        "psr-4": {
+            "Dsw\\Qrcreator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "PedroBarrera",
+            "email": "pedrodbarrerafdez@gmail.com"
+        }
+    ],
+    "require": {
+        "endroid/qr-code": "^5.1"
+    }
+}
